@@ -8,6 +8,7 @@ import resolveUrls from "lume/plugins/resolve_urls.ts";
 import sass from "lume/plugins/sass.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import nunjucks from "lume/plugins/nunjucks.ts";
+import transformImages from "lume/plugins/transform_images.ts";
 
 const site = lume({
   location: new URL("https://www.jyuch.dev/"),
@@ -15,7 +16,6 @@ const site = lume({
 
 site
   .ignore("README.md")
-  .copy("img")
   .copy("favicon.ico")
   .copy("robots.txt")
   .copy("CNAME")
@@ -27,6 +27,7 @@ site
   .use(resolveUrls())
   .use(sass())
   .use(nunjucks())
+  .use(transformImages())
   .use(minifyHTML());
 
 export default site;

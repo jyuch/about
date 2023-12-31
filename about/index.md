@@ -6,7 +6,7 @@ menu:
   order: 0
 ---
 
-<img src="/img/jyuch.jpg" style="border-radius:50%;height:8rem">
+<img src="/img/jyuch.webp" style="border-radius:50%;height:8rem">
 
 ## 概要
 
