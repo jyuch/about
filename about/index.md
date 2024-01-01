@@ -24,6 +24,7 @@ menu:
 ## アウトプット
 
 - [GitHub](https://github.com/jyuch)
+- [ブログ](https://www.jyuch.dev/)
 - [旧ブログ（はてなブログ）](https://jyuch.hatenablog.com/)
 
 ## コンタクト
