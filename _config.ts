@@ -11,7 +11,7 @@ import nunjucks from "lume/plugins/nunjucks.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 
 const site = lume({
-  location: new URL("https://www.jyuch.dev/"),
+  location: new URL("https://about.jyuch.dev/"),
 });
 
 site
@@ -23,7 +23,7 @@ site
   .use(date())
   .use(codeHighlight())
   .use(basePath())
-  .use(slugifyUrls({ alphanumeric: false }))
+  .use(slugifyUrls({ alphanumeric: false, lowercase: false }))
   .use(resolveUrls())
   .use(sass())
   .use(nunjucks())
