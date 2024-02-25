@@ -8,7 +8,7 @@ menu:
 
 <img src="/img/jyuch.webp" style="border-radius:50%;height:8rem">
 
-## 概要
+## Summary
 
 社内システムの内製チームとして、アプリケーション開発からインフラ整備からユーザ部門のヒアリングまで手広くやっています。
 
@@ -21,13 +21,13 @@ menu:
 
 詳細なスキルなどは[こちら](/skills/)からどうぞ。
 
-## アウトプット
+## Outputs
 
 - [GitHub](https://github.com/jyuch)
 - [ブログ](https://www.jyuch.dev/)
 - [旧ブログ（はてなブログ）](https://jyuch.hatenablog.com/)
 
-## コンタクト
+## Contact
 
 ご連絡は contact [at] jyuch.dev までよろしくお願いします。
 

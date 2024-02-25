@@ -7,7 +7,7 @@ menu:
 ---
 
 
-## 開発
+## Development
 
 ### C# / .NET Framework / .NET
 
@@ -69,7 +69,7 @@ Angular/Vue.jsを使用した社内システムの開発を行った経験があ
 
 最近使い始めたので得意な分野などはありませんが、社内での情報分析やプロトタイプの実装に使用しています。
 
-## データベース
+## RDBMS
 
 ### PostgreSQL
 
@@ -83,17 +83,17 @@ Angular/Vue.jsを使用した社内システムの開発を行った経験があ
 
 実行計画の読み取りやそれに応じたインデックスチューニング、ヒント句を使用したクエリチューニングなど開発側の一通りの経験があります。
 
-## ミドルウェア
+## Middleware
 
-### nginx
+### Nginx
 
 リバースプロキシとしてTomcatの前段に置いて静的ファイルのキャッシングによる配信の最適化や、ASP Core Web APIの前段に置いてBlue/Greenデプロイの制御に使用した経験があります。
 
-## 仮想化・コンテナ
+## Virtualization / Container
 
 ### Docker
 
-最近は使用していませんが、検証環境の立ち上げやアプリケーションのビルドなどに使用していました。
+検証環境の立ち上げやアプリケーションのビルドなどに使用していました。
 
 Dockerfileやdocker-compose.ymlなどは一通り書けます。
 
@@ -101,19 +101,18 @@ Dockerfileやdocker-compose.ymlなどは一通り書けます。
 
 ### Windows Server
 
-Windows Server上にTomcat及びPostgreSQLを構成し、社内向けのサービスを展開しています。
-
-また、趣味でActive Directoryを構成したり証明書認証局を構築したりしています。
+Tomcat及びPostgreSQLを構成し、社内向けのサービスを展開しています。
+また、検証用途にAD・WSUS・Hyper-V高可用性クラスタの構築経験があります。
 
 ### Linux
 
-開発及び検証環境として主にUbuntuを使用しています。
+Tomcat及びNginxを使用したアプリケーションサーバの構築や、PostgreSQLを使用したデータベースサーバの構築経験があります。
 
 ### FreeBSD
 
 自宅のファイルサーバとして、FreeBSDをベースとしたアプライアンスであるXigmaNASを使用してファイルサーバを[構築・運用](https://jyuch.hatenablog.com/entry/2022/01/30/175006)しています。
 
-## ネットワーク
+## Network
 
 業務では製造設備向けのネットワークを構築するために、ヤマハのRTXシリーズを使用したNAT及びパケットフィルタの設計と構築を行っています。
 
