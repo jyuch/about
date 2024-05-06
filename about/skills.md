@@ -31,7 +31,7 @@ MSBuildやNuGetなどのビルドエコシステムにもそれなりに精通�
 
 主に Spring Framework を使用したWeb APIやWebアプリケーションの実装を行っています。
 
-Maven や Gradle といったプロジェクトのビルド環境の整備・メンテナンス・AOPのフックポイントを使用したコードの省力化やリフレクションを使用した定型コードの削減が得意な分野となります。
+Maven や Gradle といったプロジェクトのビルド環境の整備・メンテナンス、AOPのフックポイントを使用したコードの省力化やリフレクションを使用した定型コードの削減が得意な分野となります。
 
 また、プラットフォームとしてのJVMでは要件に応じたガベージコレクタモードの選定やパラメータのチューニング、Java Flight Recorderを使用してTomcatでのクラスローダに係るMetaspaceリークのトラブルシュートの経験があります。
 
@@ -41,7 +41,9 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 現在、個人的に最も興味を持って勉強している言語です。
 
+<!--
 社内で運用しているタスク実行ソフトウェアや死活監視ソフトウェアといったシステム管理用なシステムの実装に使用しています。
+-->
 
 他の言語の良いところをバランスよくまとめた文法や、完成度の高いビルドエコシステムやパッケージマネージャ、C#やJavaと異なりコンパクトなシングルバイナリで動作するところがかなり気に入っています。
 
@@ -52,22 +54,24 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 また、[GitBucket](https://github.com/gitbucket/gitbucket)向けのバックアッププラグインのメンテナンスを行っています。
 それ以外にも、Alpakka のコネクタを作ったりもしていました。
 
-なんだかんだ言って一番OSSのコントリビューションの多い言語です。
+最もOSSのコントリビューションを行っている言語です。
 
 - [jyuch/gitbucket-backup-plugin](https://github.com/jyuch/gitbucket-backup-plugin)
 - [maven central repository dev.jyuch](https://central.sonatype.com/namespace/dev.jyuch)
 
-### JavaScript / TypeScript / Node.js / Deno
+### JavaScript / Node.js
 
-Angular/Vue.jsを使用した社内システムの開発を行った経験があります。
-
-また、このサイトもDeno + Lumeを使用して構築しています。
+Angularをフロントエンドとして使用した社内システムのプロトタイプや、Vue.jsを使用した社内システムの開発を行った経験があります。
 
 ### Python
 
 仕事でメインに使用している言語その3です。
 
 最近使い始めたので得意な分野などはありませんが、社内での情報分析やプロトタイプの実装に使用しています。
+
+## Git
+
+日常の開発に使用するのはもちろん、メンバーへのGitの使用方法の啓蒙やブランチ運用計画の策定、トラブル発生時のリポジトリの修復などの経験があります。
 
 ## RDBMS
 
@@ -102,7 +106,7 @@ Dockerfileやdocker-compose.ymlなどは一通り書けます。
 ### Windows Server
 
 Tomcat及びPostgreSQLを構成し、社内向けのサービスを展開しています。
-また、検証用途にAD・WSUS・Hyper-V高可用性クラスタの構築経験があります。
+また、検証用途にAD・Enterprise CA・WSUS・Hyper-V高可用性クラスタの構築経験があります。
 
 ### Linux
 
@@ -118,8 +122,4 @@ Tomcat及びNginxを使用したアプリケーションサーバの構築や、
 
 また、自宅ネットワークとして、アライドテレシスのx510とMikroTikを使用した10Gbpsネットワークを[構築・運用](https://jyuch.hatenablog.com/entry/2022/07/23/211721)しています。
 
-最近はVyOSを野良ビルドして検証環境にデプロイしたり、vJunos OS Evolvedのメモリバカ食いに悩まされながらeBGPやOSPFを動かしたり、VPNを張ってネットワークの勉強をしています。
-
-## Git
-
-日常の開発に使用するのはもちろん、メンバーへのGitの使用方法の啓蒙やブランチ運用計画の策定、トラブル発生時のリポジトリの修復などを行っています。
+プライベートでVyOSを検証環境にデプロイしたり、vJunos OS EvolvedでeBGPやOSPFを動かしたり、VPNを張ってネットワークの勉強をしています。
