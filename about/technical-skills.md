@@ -1,13 +1,13 @@
 ---
-title: Skills
-url: /skills/
+title: Technical Skills
+url: /technical-skills/
 menu:
   visible: true
   order: 1
 ---
 
 
-## Development
+## Programming Languages
 
 ### C# / .NET Framework / .NET
 
@@ -37,6 +37,10 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 一応 Oracle Certified Java Programmer, Gold SE 7 を持っています。
 
+### Python
+
+最近仕事で使っています。
+
 ### Rust
 
 現在、個人的に最も興味を持って勉強している言語です。
@@ -51,27 +55,15 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 関数型言語の勉強として個人的に勉強していました。
 
-また、[GitBucket](https://github.com/gitbucket/gitbucket)向けのバックアッププラグインのメンテナンスを行っています。
+また、[GitBucket](https://github.com/gitbucket/gitbucket)向けのバックアッププラグインのメンテナンスを行っていました。
 それ以外にも、Alpakka のコネクタを作ったりもしていました。
 
-最もOSSのコントリビューションを行っている言語です。
+今のところ最もOSSのコントリビューションを行っている言語です。
 
 - [jyuch/gitbucket-backup-plugin](https://github.com/jyuch/gitbucket-backup-plugin)
 - [maven central repository dev.jyuch](https://central.sonatype.com/namespace/dev.jyuch)
 
-### JavaScript / Node.js
-
-Angularをフロントエンドとして使用した社内システムのプロトタイプや、Vue.jsを使用した社内システムの開発を行った経験があります。
-
-### Python
-
-仕事でメインに使用している言語その3です。
-
-最近使い始めたので得意な分野などはありませんが、社内での情報分析やプロトタイプの実装に使用しています。
-
-## Git
-
-日常の開発に使用するのはもちろん、メンバーへのGitの使用方法の啓蒙やブランチ運用計画の策定、トラブル発生時のリポジトリの修復などの経験があります。
+全体的に過去形になりつつある言語ですが、そろそろ復帰したいです。
 
 ## RDBMS
 
@@ -87,39 +79,40 @@ Angularをフロントエンドとして使用した社内システムのプロ�
 
 実行計画の読み取りやそれに応じたインデックスチューニング、ヒント句を使用したクエリチューニングなど開発側の一通りの経験があります。
 
-## Middleware
-
-### Nginx
-
-リバースプロキシとしてTomcatの前段に置いて静的ファイルのキャッシングによる配信の最適化や、ASP Core Web APIの前段に置いてBlue/Greenデプロイの制御に使用した経験があります。
-
 ## Virtualization / Container
 
 ### Docker
 
-検証環境の立ち上げやアプリケーションのビルドなどに使用していました。
+イメージサイズ削減おじさんをやっていました。
 
-Dockerfileやdocker-compose.ymlなどは一通り書けます。
+Dockerfileやcompose.ymlなどは一通り書けます。
+
+## Network
+
+いわゆるOTネットワークを構築するために、ヤマハのRTXシリーズを使用したNAT及びパケットフィルタの設計と構築を行っています。
+
+また、自宅ネットワークとして、アライドテレシスのx510とMikroTikを使用した10Gbpsネットワークを[構築・運用](https://jyuch.hatenablog.com/entry/2022/07/23/211721)しています。
+
+## Git
+
+日常の開発に使用するのはもちろん、メンバーへのGitの使用方法の啓蒙やブランチ運用計画の策定、トラブル発生時のリポジトリの修復などの経験があります。
+
+たまに歴史改変作業をやったりしています。
 
 ## OS
 
 ### Windows Server
 
 Tomcat及びPostgreSQLを構成し、社内向けのサービスを展開しています。
+
 また、検証用途にAD・Enterprise CA・WSUS・Hyper-V高可用性クラスタの構築経験があります。
 
 ### Linux
 
 Tomcat及びNginxを使用したアプリケーションサーバの構築や、PostgreSQLを使用したデータベースサーバの構築経験があります。
 
+あとふつうに開発環境として使っています。
+
 ### FreeBSD
 
 自宅のファイルサーバとして、FreeBSDをベースとしたアプライアンスであるXigmaNASを使用してファイルサーバを[構築・運用](https://jyuch.hatenablog.com/entry/2022/01/30/175006)しています。
-
-## Network
-
-業務では製造設備向けのネットワークを構築するために、ヤマハのRTXシリーズを使用したNAT及びパケットフィルタの設計と構築を行っています。
-
-また、自宅ネットワークとして、アライドテレシスのx510とMikroTikを使用した10Gbpsネットワークを[構築・運用](https://jyuch.hatenablog.com/entry/2022/07/23/211721)しています。
-
-プライベートでVyOSを検証環境にデプロイしたり、vJunos OS EvolvedでeBGPやOSPFを動かしたり、VPNを張ってネットワークの勉強をしています。
