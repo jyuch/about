@@ -13,13 +13,13 @@ menu:
 
 仕事でメインに使用している言語その1です。
 
-WinFormやWFP、ASP Coreを使用したWeb APIなど一通りの開発経験があります。
+WinForm や WFP、ASP Core を使用した Web API など一通りの開発経験があります。
 
 その中でも特にソースコードや式木・ILなど複数の領域でのメタプログラミングを得意としており、それらを組み合わせたプログラムの自動生成を得意としています。
 
-MSBuildやNuGetなどのビルドエコシステムにもそれなりに精通しており、`.csproj`の手動での改変を含むカスタムビルドの定義などを行うことができます。
+MSBuild や NuGet などのビルドエコシステムにも精通しており、`.csproj`の手動での改変を含むカスタムビルドの定義などを行うことができます。
 
-.NET Frameworkシリーズから.NETシリーズへのマイグレーションを行い、実際に稼働しているアプリケーションの乗せ換えを行った経験もあります。
+.NET Framework シリーズから .NET シリーズへのマイグレーションを行い、実際に稼働しているアプリケーションの乗せ換えを行った経験もあります。
 
 それ以外にも、[Entity Framework Core を使用した経験](https://jyuch.hatenablog.com/entry/2022/10/02/162005)やパーサコンビネータライブラリを使用した独自フォーマットの解析などの経験もあります。
 
@@ -29,7 +29,7 @@ MSBuildやNuGetなどのビルドエコシステムにもそれなりに精通�
 
 仕事でメインに使用している言語その2です。
 
-主に Spring Framework を使用したWeb APIやWebアプリケーションの実装を行っています。
+主に Spring Framework を使用した Web API やWebアプリケーションの実装を行っています。
 
 Maven や Gradle といったプロジェクトのビルド環境の整備・メンテナンス、AOPのフックポイントを使用したコードの省力化やリフレクションを使用した定型コードの削減が得意な分野となります。
 
@@ -55,7 +55,7 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 関数型言語の勉強として個人的に勉強していました。
 
-また、[GitBucket](https://github.com/gitbucket/gitbucket)向けのバックアッププラグインのメンテナンスを行っていました。
+また、[GitBucket向けのバックアッププラグイン](https://github.com/jyuch/gitbucket-backup-plugin)の開発を行っていました。
 それ以外にも、Alpakka のコネクタを作ったりもしていました。
 
 今のところ最もOSSのコントリビューションを行っている言語です。
@@ -64,6 +64,8 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 - [maven central repository dev.jyuch](https://central.sonatype.com/namespace/dev.jyuch)
 
 全体的に過去形になりつつある言語ですが、そろそろ復帰したいです。
+
+実は`jyuch.dev`ドメインは maven central repository に登録するために取得したのがきっかけです。
 
 ## RDBMS
 
@@ -83,9 +85,9 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 ### Docker
 
-イメージサイズ削減おじさんをやっていました。
+Dockerfile や compose.yml などは一通り書けます。
 
-Dockerfileやcompose.ymlなどは一通り書けます。
+[マルチステージビルドを使用したイメージの縮小](https://www.jyuch.dev/posts/2024/09-14-docker-cache/)などをやっています。
 
 ## Network
 
