@@ -37,10 +37,6 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 一応 Oracle Certified Java Programmer, Gold SE 7 を持っています。
 
-### Python
-
-最近仕事で使っています。
-
 ### Rust
 
 現在、個人的に最も興味を持って勉強している言語です。
@@ -65,7 +61,27 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 全体的に過去形になりつつある言語ですが、そろそろ復帰したいです。
 
-実は`jyuch.dev`ドメインは maven central repository に登録するために取得したのがきっかけです。
+`jyuch.dev`ドメインは maven central repository に登録するために取得したのがきっかけです。
+
+## Cloud platform and related
+
+### Amazon Web Services
+
+DatabricksのワークスペースをデプロイするためのVPCの設計や、既存のVPCやオンプレとの接続を行うためのVPC PeeringやDirect Connectのネットワーク設計を行った経験があります。
+
+また、Embulkをベースとして、ECSとFargateを組み合わせたサーバレスのETLフリートを構築・運用しています。
+
+### Databricks
+
+AWS上にカスタマーマネージドVPCの設計を行い、ワークスペースのデプロイを行った経験があります。
+
+また、PoCのための環境構築やAI/BI Genieのプロンプトエンジニアリングを通じたチューニングなどを行っています。
+
+`System user`という名前のグループを作成してカタログの所有者に設定すると削除も設定の変更も出来なくなるというバグを踏み抜いてサポートベンダーを困らせるなど、活動は多岐にわたります。
+
+### Terraform
+
+AWSやDatabricksの各種リソースの生成やDatabricksのコンフィグを投入するために使用しています。
 
 ## RDBMS
 
