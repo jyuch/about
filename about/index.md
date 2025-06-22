@@ -19,17 +19,15 @@ menu:
 
 また、ビルド周りを整備したりプラットフォームが安定して稼働出来るように調整をしたり、定型パターンを手早く実装出来るようにフレームワークを拡張するのを得意としています。
 
-## Outputs
+## Certificate / Examination
 
-- [GitHub](https://github.com/jyuch)
-- [ブログ](https://www.jyuch.dev/)
-- [旧ブログ（はてなブログ）](https://jyuch.hatenablog.com/)
+|取得・合格|資格・試験名|
+|:-|:-|
+|2014年2月|Oracle Certified Java Programmer, Silver SE 7|
+|2014年4月|Oracle Certified Java Programmer, Gold SE 7|
+|2024年12月|応用情報技術者試験|
+|2025年6月|AWS Certified Solutions Architect - Associate (SAA-C03)|
 
 ## Contact
 
 ご連絡は contact [at] jyuch.dev までよろしくお願いします。
-
-~~CloudflareのEmail Routingでエイリアスを貼っているだけなので、返信は違うメールアドレスから行います。~~
-ついに独自ドメインからメールを返せるようになりました🎉
-
-が、調子が悪い時は別のメールアドレスから送ると思います。
