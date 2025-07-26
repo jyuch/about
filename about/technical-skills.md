@@ -35,8 +35,6 @@ Maven や Gradle といったプロジェクトのビルド環境の整備・メ
 
 また、プラットフォームとしてのJVMでは要件に応じたガベージコレクタモードの選定やパラメータのチューニング、Java Flight Recorderを使用してTomcatでのクラスローダに係るMetaspaceリークのトラブルシュートの経験があります。
 
-一応 Oracle Certified Java Programmer, Gold SE 7 を持っています。
-
 ### Rust
 
 現在、個人的に最も興味を持って勉強している言語です。
