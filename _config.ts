@@ -30,4 +30,7 @@ site
   .add([".scss"])
   .add("img");
 
+const isEnableGoogleAnalytics = Deno.env.get("ENABLE_GOOGLE_ANALYTICS") === "true";
+site.data("isEnableGoogleAnalytics", isEnableGoogleAnalytics);
+
 export default site;
