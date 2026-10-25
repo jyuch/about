@@ -1,0 +1,89 @@
+---
+import { Image } from 'astro:assets';
+import jyuch from '../assets/jyuch.jpg';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const certificates = [
+	{ date: '2025年7月', name: 'ネットワークスペシャリスト試験' },
+	{ date: '2025年6月', name: 'AWS Certified Solutions Architect - Associate (SAA-C03)' },
+	{ date: '2024年12月', name: '応用情報技術者試験' },
+	{ date: '2014年4月', name: 'Oracle Certified Java Programmer, Gold SE 7' },
+	{ date: '2014年2月', name: 'Oracle Certified Java Programmer, Silver SE 7' },
+];
+---
+
+<BaseLayout title="About Me">
+	<article class="about">
+		<div class="about-body">
+			<Image src={jyuch} alt="jyuch" width={200} height={200} format="webp" class="icon" />
+
+			<h2>About Me</h2>
+
+			<p>データエンジニアとインフラエンジニアとDX推進を足して3で割ったような仕事をしています。</p>
+
+			<h2>Certificate / Examination</h2>
+
+			<table>
+				<thead>
+					<tr>
+						<th>取得・合格</th>
+						<th>資格・試験名</th>
+					</tr>
+				</thead>
+				<tbody>
+					{
+						certificates.map(({ date, name }) => (
+							<tr>
+								<td>{date}</td>
+								<td>{name}</td>
+							</tr>
+						))
+					}
+				</tbody>
+			</table>
+		</div>
+	</article>
+
+	<hr />
+</BaseLayout>
+
+<style>
+	.about {
+		margin: 2.5rem auto 0;
+		max-width: 50em;
+	}
+
+	.about-body {
+		font-size: 1.05em;
+		line-height: 1.6;
+	}
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	table {
+		border-collapse: collapse;
+	}
+
+	th {
+		background: #fafafa;
+		font-weight: normal;
+		text-align: left;
+	}
+
+	th,
+	td {
+		border: solid 1px #e4e4e4;
+		border-spacing: 0;
+		padding: 0.25em 0.5em;
+	}
+
+	.icon {
+		border-radius: 50%;
+		width: auto;
+		height: 5rem;
+		display: block;
+		margin: 0 auto;
+	}
+</style>

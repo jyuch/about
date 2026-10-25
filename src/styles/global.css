@@ -1,0 +1,51 @@
+:root {
+	--red: #c04;
+	--lightgray: #e6e6e6;
+	--darkgray: #0d1117;
+	--blue: #135;
+	--white: #fff;
+	--font-family: -apple-system, system-ui, sans-serif;
+	--noto-sans-font-family: "Noto Sans JP Light", var(--font-noto-sans-jp), -apple-system, system-ui;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: var(--font-family);
+	color: var(--darkgray);
+	background-color: var(--white);
+}
+
+main {
+	padding: 0 5vw 1vh;
+	font-family: var(--noto-sans-font-family);
+
+	& > :first-child {
+		margin-top: 0;
+	}
+}
+
+a {
+	color: var(--blue);
+}
+
+table {
+	margin: 1em 0;
+
+	& td,
+	& th {
+		padding-right: 1em;
+	}
+}
+
+hr {
+	border: 0;
+	border-top: solid 2px var(--lightgray);
+	margin: 5vh 0;
+}
+
+.home {
+	margin: 0 auto;
+	max-width: 50em;
+}
